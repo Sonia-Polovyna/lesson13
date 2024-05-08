@@ -1,0 +1,130 @@
+.main {
+    width: 800px;
+    height: 300px;
+    background-color: rgb(30, 30, 48);
+    margin: 0 auto;
+    border: 1px solid rgb(38, 38, 248);
+    border-radius: 20px;
+}
+.left-block {
+    width: 100px;
+    height: 300px;
+    /* background-color: rgb(248, 113, 253); */
+    float: left;
+}
+.right-block {
+    width: 700px;
+    height: 300px;
+    /* background-color: rgb(113, 115, 253); */
+    float: right;
+}
+.top-block {
+    width: 700px;
+    height: 50px;
+   
+}
+.content-block {
+    width: 665px;
+    height: 130px;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 540;
+    word-spacing: 6px;
+    letter-spacing: 1px;;
+    padding: 10px;
+    padding-right: 15px;
+    font-family: Arial;
+}
+.link-block {
+    width: 690px;
+    height: 20px;
+    padding: 5px;
+}
+.bottom-block {
+    width: 700px;
+    height: 60px;
+    padding-top: 10px;
+    /* background-color: rgb(0, 0, 0); */
+}
+.name-block {
+    width: 340px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 15px;
+    /* background-color: rgb(73, 249, 50); */
+    float: left;
+}
+.rating-block {
+    width: 350px;
+    height: 50px;
+    /* background-color: rgb(217, 156, 34); */
+    float: right;
+}
+.link-under-content{
+    color: rgb(97, 97, 252);
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+.name {
+    color: white;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.date {
+    font-size: 11px;
+    font-weight: 500;
+    padding-top: 2px;
+    font-family: Arial;
+    color: rgb(84, 132, 174);
+}
+.pfp {
+    padding: 20px;
+}
+.level, .subscriber {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 2px;
+    font-family: Arial;
+    color: rgb(84, 132, 174);
+}
+.button1 {
+    height: 25px;
+    width: 50px;
+    background-color: rgb(46, 62, 77);
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.button2 {
+    height: 25px;
+    width: 50px;
+    background-color: rgb(46, 62, 77);
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.answer {
+    background-color: rgb(54, 121, 179);
+    padding: 2px 4px;
+    margin-top: 4px;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+}
+.icons {
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+}
+body {
+    background-color: rgb(5, 13, 29);
+}
